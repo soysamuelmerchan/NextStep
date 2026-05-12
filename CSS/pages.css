@@ -1,0 +1,381 @@
+/* ===== ESTILOS COMPARTIDOS PÁGINAS INTERNAS ===== */
+
+/* Mini Hero / Page Header */
+.page-hero {
+  background-color: #330055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  padding: 100px 0 60px;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.page-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: white;
+}
+
+.page-hero p {
+  font-size: 1.1rem;
+  color: #ddd;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Secciones internas */
+.page-section {
+  padding: 70px 0;
+}
+
+.page-section-dark {
+  background-color: #330055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  padding: 70px 0;
+  color: white;
+}
+
+/* Footer reutilizable */
+footer {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  color: #ccc;
+  padding: 30px 0;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* ===== COMO FUNCIONA ===== */
+.timeline-step {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.timeline-num {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(
+    circle,
+    rgba(90, 0, 122, 1) 0%,
+    rgba(66, 0, 57, 1) 100%
+  );
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-content {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 25px;
+  flex: 1;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.timeline-content:hover {
+  transform: translateX(8px);
+}
+
+.timeline-content h5 {
+  color: #330055;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  color: #555;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.faq-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px 25px;
+  backdrop-filter: blur(10px);
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.faq-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.faq-card h6 {
+  color: #f0c040;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.faq-card p {
+  color: #ddd;
+  font-size: 0.93rem;
+  margin: 0;
+}
+
+/* ===== QUIÉNES SOMOS ===== */
+.team-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.team-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #330055;
+  background: #e8d5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-photo-placeholder {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #330055, #8008a9);
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #f0c040;
+  font-size: 3rem;
+  color: white;
+}
+
+.team-card h5 {
+  color: #330055;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.team-card .role {
+  color: #8008a9;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.value-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 30px 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  transition: 0.3s;
+}
+
+.value-card:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-6px);
+}
+
+.value-icon {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.value-card h5 {
+  color: #f0c040;
+  font-weight: 700;
+}
+
+.value-card p {
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+/* ===== CONTACTO ===== */
+.contact-card {
+  background: white;
+  border-radius: 14px;
+  padding: 28px 22px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+}
+
+.contact-icon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.contact-card h6 {
+  color: #330055;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.contact-card p {
+  color: #666;
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.contact-form-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+  border-color: #8008a9;
+  box-shadow: 0 0 0 0.25rem rgba(128, 8, 169, 0.2);
+}
+
+.btn-purple {
+  background: radial-gradient(
+    circle,
+    rgba(90, 0, 122, 1) 0%,
+    rgba(66, 0, 57, 1) 100%
+  );
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-purple:hover {
+  opacity: 0.88;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* ===== RESULTADOS ===== */
+.resultado-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.resultado-card:hover {
+  transform: translateY(-8px);
+}
+
+.resultado-card .badge-carrera {
+  display: inline-block;
+  background: linear-gradient(135deg, #330055, #8008a9);
+  color: white;
+  border-radius: 20px;
+  padding: 5px 16px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.resultado-card h5 {
+  color: #330055;
+  font-weight: 700;
+}
+
+.resultado-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.skill-bar-wrap {
+  margin-bottom: 12px;
+}
+
+.skill-bar-wrap span {
+  font-size: 0.85rem;
+  color: #444;
+  font-weight: 600;
+}
+
+.skill-bar {
+  height: 8px;
+  border-radius: 10px;
+  background: #f0f0f0;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #330055, #8008a9);
+  transition: width 1s ease;
+}
+
+.perfil-badge {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.sample-result-box {
+  background: linear-gradient(135deg, #330055 0%, #5a007a 100%);
+  border-radius: 20px;
+  padding: 40px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.sample-result-box::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+}
+
+.sample-result-box .match-pct {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #f0c040;
+  line-height: 1;
+}
